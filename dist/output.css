@@ -513,25 +513,12 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.invisible {
-  visibility: hidden;
-}
-
 .relative {
   position: relative;
 }
 
 .m-auto {
   margin: auto;
-}
-
-.-m-1 {
-  margin: -0.25rem;
-}
-
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
 
 .mt-10 {
@@ -544,18 +531,6 @@ video {
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
 }
 
 .mr-4 {
@@ -574,10 +549,6 @@ video {
   display: inline-flex;
 }
 
-.hidden {
-  display: none;
-}
-
 .h-6 {
   height: 1.5rem;
 }
@@ -590,24 +561,12 @@ video {
   max-width: 36rem;
 }
 
-.flex-shrink {
-  flex-shrink: 1;
-}
-
 .flex-grow {
   flex-grow: 1;
 }
 
-.list-decimal {
-  list-style-type: decimal;
-}
-
 .list-disc {
   list-style-type: disc;
-}
-
-.flex-wrap {
-  flex-wrap: wrap;
 }
 
 .items-center {
@@ -636,11 +595,6 @@ video {
   border-color: rgb(156 163 175 / var(--tw-border-opacity));
 }
 
-.border-teal-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(20 184 166 / var(--tw-border-opacity));
-}
-
 .border-stone-500 {
   --tw-border-opacity: 1;
   border-color: rgb(120 113 108 / var(--tw-border-opacity));
@@ -649,16 +603,6 @@ video {
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.bg-teal-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(204 251 241 / var(--tw-bg-opacity));
-}
-
-.bg-stone-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(231 229 228 / var(--tw-bg-opacity));
 }
 
 .bg-stone-100 {
@@ -731,16 +675,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-teal-900 {
-  --tw-text-opacity: 1;
-  color: rgb(19 78 74 / var(--tw-text-opacity));
-}
-
-.text-teal-500 {
-  --tw-text-opacity: 1;
-  color: rgb(20 184 166 / var(--tw-text-opacity));
-}
-
 .text-stone-500 {
   --tw-text-opacity: 1;
   color: rgb(120 113 108 / var(--tw-text-opacity));
@@ -765,18 +699,4 @@ video {
 .hover\:text-rose-900:hover {
   --tw-text-opacity: 1;
   color: rgb(136 19 55 / var(--tw-text-opacity));
-}
-
-@media (min-width: 768px) {
-  .md\:-m-2 {
-    margin: -0.5rem;
-  }
-
-  .md\:list-disc {
-    list-style-type: disc;
-  }
-
-  .md\:list-decimal {
-    list-style-type: decimal;
-  }
 }
