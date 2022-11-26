@@ -54,7 +54,7 @@
   <div class='safelink-button' id='safelink'>
     <div style='text-align: center'>
       <div class='button outline' id='safelink-wait'>Please wait...</div>
-      <script>/*<![CDATA[*/ var currentURL = location.href; var str = currentURL; var res = str.replace('https://your_blog_address.com/p/safelink.html' + '?url=', " "); function changeLink(){ var decodedString = Base64.decode(res); window.open(decodedString, '_blank')}; document.write('<a href="#getLink" id="safelink-download" class="button">Create link</a>'); var linkDL = document.getElementById("safelink-download"); var notif = document.getElementById("safelink-wait"); var time = 5; var textTime = document.createElement("span"); linkDL.parentNode.replaceChild(textTime, linkDL); var id; id = setInterval(function () { time--; if (time < 0) { textTime.parentNode.replaceChild(linkDL, textTime); clearInterval(id); notif.style.display = "none"; linkDL.style.display = "inline-block"; } else { textTime.innerHTML = "Link will appear in " + time.toString() + " second"; }}, 1000); /*]]>*/</script>
+      <script>/*<![CDATA[*/ var currentURL = location.href; var str = currentURL; var res = str.replace('http://127.0.0.1:5500/link/index.html' + '?url=', " "); function changeLink(){ var decodedString = Base64.decode(res); window.open(decodedString, '_blank')}; document.write('<a href="#getLink" id="safelink-download" class="button">Create link</a>'); var linkDL = document.getElementById("safelink-download"); var notif = document.getElementById("safelink-wait"); var time = 5; var textTime = document.createElement("span"); linkDL.parentNode.replaceChild(textTime, linkDL); var id; id = setInterval(function () { time--; if (time < 0) { textTime.parentNode.replaceChild(linkDL, textTime); clearInterval(id); notif.style.display = "none"; linkDL.style.display = "inline-block"; } else { textTime.innerHTML = "Link will appear in " + time.toString() + " second"; }}, 1000); /*]]>*/</script>
     </div>
   </div>
   
@@ -66,7 +66,7 @@
   
   <div class='safelink-create' style='text-align:center'>
     <div class='ad-placement'>
-      <!--[ Your_ad_code_here ]-->
+      <iframe data-aa='2124596' src='//ad.a-ads.com/2124596?size=728x90' style='width:728px; height:90px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
     </div>
   
     <div id='getLink'>
